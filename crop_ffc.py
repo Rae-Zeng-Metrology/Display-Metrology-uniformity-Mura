@@ -80,7 +80,7 @@ def main():
     print("Saved:",os.path.join(OUT_DIR,"flat_crop_only.png"))
     
     if len(RAW_PHOTO_PATH) == 0:
-        print("RAW_PHOTO_PATH 为空：请把相机拍摄的灰阶照片路径填进去，再运行一次。")
+        print("RAW_PHOTO_PATH is empty")
         return
         
     for raw_path in RAW_PHOTO_PATH:
